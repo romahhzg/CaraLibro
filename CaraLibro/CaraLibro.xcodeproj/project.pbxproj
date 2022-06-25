@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5560852866B4E400FB207C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5560842866B4E400FB207C /* ViewController.swift */; };
 		AA7E72B6286521B4001E50AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA7E72B5286521B4001E50AF /* GoogleService-Info.plist */; };
 		AA7E72BA28652BF4001E50AF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AA7E72B928652BF4001E50AF /* FirebaseAnalytics */; };
 		AA7E72BC28652BF4001E50AF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AA7E72BB28652BF4001E50AF /* FirebaseAuth */; };
@@ -18,10 +19,11 @@
 		AA8DDAF3285EEF9A00A7DFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8DDAF1285EEF9A00A7DFEB /* Main.storyboard */; };
 		AA8DDAF5285EEFA300A7DFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8DDAF4285EEFA300A7DFEB /* Assets.xcassets */; };
 		AA8DDAF8285EEFA300A7DFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8DDAF6285EEFA300A7DFEB /* LaunchScreen.storyboard */; };
-		AAD9A6852865613D00BB755B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9A6842865613D00BB755B /* RegisterViewController.swift */; };
+		AAD9A6852865613D00BB755B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9A6842865613D00BB755B /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA5560842866B4E400FB207C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA7E72B5286521B4001E50AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA8DDAE8285EEF9A00A7DFEB /* CaraLibro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraLibro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8DDAEB285EEF9A00A7DFEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +33,7 @@
 		AA8DDAF4285EEFA300A7DFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8DDAF7285EEFA300A7DFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8DDAF9285EEFA300A7DFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAD9A6842865613D00BB755B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AAD9A6842865613D00BB755B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,8 @@
 				AA8DDAF6285EEFA300A7DFEB /* LaunchScreen.storyboard */,
 				AA8DDAF9285EEFA300A7DFEB /* Info.plist */,
 				AA7E72B5286521B4001E50AF /* GoogleService-Info.plist */,
-				AAD9A6842865613D00BB755B /* RegisterViewController.swift */,
+				AAD9A6842865613D00BB755B /* HomeViewController.swift */,
+				AA5560842866B4E400FB207C /* ViewController.swift */,
 			);
 			path = CaraLibro;
 			sourceTree = "<group>";
@@ -164,7 +167,8 @@
 				AA8DDAF0285EEF9A00A7DFEB /* AuthViewController.swift in Sources */,
 				AA8DDAEC285EEF9A00A7DFEB /* AppDelegate.swift in Sources */,
 				AA8DDAEE285EEF9A00A7DFEB /* SceneDelegate.swift in Sources */,
-				AAD9A6852865613D00BB755B /* RegisterViewController.swift in Sources */,
+				AA5560852866B4E400FB207C /* ViewController.swift in Sources */,
+				AAD9A6852865613D00BB755B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
