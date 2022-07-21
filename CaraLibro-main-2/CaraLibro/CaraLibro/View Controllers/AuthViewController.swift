@@ -17,7 +17,6 @@ class AuthViewController: UIViewController {
     @IBOutlet weak var RecuperarPassButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
     
-    
     @IBAction private func tapToCloseKeyboard(_ sender: UITapGestureRecognizer) {
             self.view.endEditing(true)
         }

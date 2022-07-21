@@ -6,8 +6,7 @@
 //
 
 import UIKit
-import FirebaseAuth
-import FirebaseDatabase
+import Firebase
 
 class ResetViewController: UIViewController {
     
@@ -21,7 +20,26 @@ class ResetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setUpElements()
     }
     
+    func setUpElements() {
+
+        Utilities.styleFilledButton(recuperarButton)
+    }
+    
+    @IBAction func ForgotPassButton(_ sender: Any) {
+        
+        let auth = Auth.auth()
+        
+        auth.sendPasswordReset(withEmail: emailTextField.text!) { (error) in
+            if error == nil{
+                print("Enviando...!")
+            }else {
+                print("Error - \(String(describing: error?.localizedDescription))")
+            }
+        }
+    }
 }
     

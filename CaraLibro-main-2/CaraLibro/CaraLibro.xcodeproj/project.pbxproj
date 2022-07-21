@@ -69,6 +69,24 @@
 			path = Media;
 			sourceTree = "<group>";
 		};
+		AA7A1FA82889DE2100B30B0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA8DDAEB285EEF9A00A7DFEB /* AppDelegate.swift */,
+				AA8DDAED285EEF9A00A7DFEB /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA7A1FA92889DE3600B30B0C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AA8DDAF6285EEFA300A7DFEB /* LaunchScreen.storyboard */,
+				AA8DDAF1285EEF9A00A7DFEB /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		AA8DDADF285EEF9A00A7DFEB = {
 			isa = PBXGroup;
 			children = (
@@ -88,14 +106,11 @@
 		AA8DDAEA285EEF9A00A7DFEB /* CaraLibro */ = {
 			isa = PBXGroup;
 			children = (
+				AA7A1FA82889DE2100B30B0C /* Resources */,
 				AA7A1FA02889998600B30B0C /* Media */,
 				AAF712D228849A2400C0DBB8 /* Helpers */,
 				AAF712D12884945200C0DBB8 /* View Controllers */,
-				AA8DDAEB285EEF9A00A7DFEB /* AppDelegate.swift */,
-				AA8DDAED285EEF9A00A7DFEB /* SceneDelegate.swift */,
-				AA8DDAF1285EEF9A00A7DFEB /* Main.storyboard */,
 				AA8DDAF4285EEFA300A7DFEB /* Assets.xcassets */,
-				AA8DDAF6285EEFA300A7DFEB /* LaunchScreen.storyboard */,
 				AA8DDAF9285EEFA300A7DFEB /* Info.plist */,
 				AA7E72B5286521B4001E50AF /* GoogleService-Info.plist */,
 			);
@@ -110,6 +125,7 @@
 				AACDE78D2883D6F400EFB581 /* RegisterViewController.swift */,
 				AA5560842866B4E400FB207C /* ResetViewController.swift */,
 				AACDE7882883C09900EFB581 /* HomeViewController.swift */,
+				AA7A1FA92889DE3600B30B0C /* Storyboards */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";

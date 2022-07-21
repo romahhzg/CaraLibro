@@ -16,7 +16,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        fotoImagenView.layer.cornerRadius = fotoImagenView.bounds.height / 2
+        fotoImagenView.layer.cornerRadius = fotoImagenView.bounds.height / 3
         fotoImagenView.clipsToBounds = true
         
     }
