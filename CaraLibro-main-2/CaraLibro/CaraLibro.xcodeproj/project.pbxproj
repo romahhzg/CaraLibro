@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		882E6C8228807140006272F0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E6C8128807140006272F0 /* Service.swift */; };
 		AA5560852866B4E400FB207C /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5560842866B4E400FB207C /* ResetViewController.swift */; };
+		AA7A1FA628899AB700B30B0C /* friends.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA7A1FA528899AB700B30B0C /* friends.mp4 */; };
 		AA7E72B6286521B4001E50AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA7E72B5286521B4001E50AF /* GoogleService-Info.plist */; };
 		AA7E72BA28652BF4001E50AF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AA7E72B928652BF4001E50AF /* FirebaseAnalytics */; };
 		AA7E72BC28652BF4001E50AF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AA7E72BB28652BF4001E50AF /* FirebaseAuth */; };
@@ -20,12 +20,16 @@
 		AA8DDAF3285EEF9A00A7DFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8DDAF1285EEF9A00A7DFEB /* Main.storyboard */; };
 		AA8DDAF5285EEFA300A7DFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8DDAF4285EEFA300A7DFEB /* Assets.xcassets */; };
 		AA8DDAF8285EEFA300A7DFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8DDAF6285EEFA300A7DFEB /* LaunchScreen.storyboard */; };
-		AAD9A6852865613D00BB755B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9A6842865613D00BB755B /* HomeViewController.swift */; };
+		AACDE7892883C09900EFB581 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDE7882883C09900EFB581 /* HomeViewController.swift */; };
+		AACDE78E2883D6F400EFB581 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDE78D2883D6F400EFB581 /* RegisterViewController.swift */; };
+		AAF712D428849A4400C0DBB8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF712D328849A4400C0DBB8 /* Utilities.swift */; };
+		AAF712D82884ABA300C0DBB8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF712D72884ABA300C0DBB8 /* Constants.swift */; };
+		AAF712DB2884B4BC00C0DBB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF712DA2884B4BC00C0DBB8 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		882E6C8128807140006272F0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		AA5560842866B4E400FB207C /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		AA7A1FA528899AB700B30B0C /* friends.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = friends.mp4; sourceTree = "<group>"; };
 		AA7E72B5286521B4001E50AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AA8DDAE8285EEF9A00A7DFEB /* CaraLibro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraLibro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8DDAEB285EEF9A00A7DFEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +39,11 @@
 		AA8DDAF4285EEFA300A7DFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8DDAF7285EEFA300A7DFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8DDAF9285EEFA300A7DFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAD9A6842865613D00BB755B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AACDE7882883C09900EFB581 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AACDE78D2883D6F400EFB581 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AAF712D328849A4400C0DBB8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		AAF712D72884ABA300C0DBB8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AAF712DA2884B4BC00C0DBB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA7A1FA02889998600B30B0C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A1FA528899AB700B30B0C /* friends.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		AA8DDADF285EEF9A00A7DFEB = {
 			isa = PBXGroup;
 			children = (
@@ -72,19 +88,39 @@
 		AA8DDAEA285EEF9A00A7DFEB /* CaraLibro */ = {
 			isa = PBXGroup;
 			children = (
+				AA7A1FA02889998600B30B0C /* Media */,
+				AAF712D228849A2400C0DBB8 /* Helpers */,
+				AAF712D12884945200C0DBB8 /* View Controllers */,
 				AA8DDAEB285EEF9A00A7DFEB /* AppDelegate.swift */,
 				AA8DDAED285EEF9A00A7DFEB /* SceneDelegate.swift */,
-				AA8DDAEF285EEF9A00A7DFEB /* AuthViewController.swift */,
 				AA8DDAF1285EEF9A00A7DFEB /* Main.storyboard */,
 				AA8DDAF4285EEFA300A7DFEB /* Assets.xcassets */,
 				AA8DDAF6285EEFA300A7DFEB /* LaunchScreen.storyboard */,
 				AA8DDAF9285EEFA300A7DFEB /* Info.plist */,
 				AA7E72B5286521B4001E50AF /* GoogleService-Info.plist */,
-				AAD9A6842865613D00BB755B /* HomeViewController.swift */,
-				AA5560842866B4E400FB207C /* ResetViewController.swift */,
-				882E6C8128807140006272F0 /* Service.swift */,
 			);
 			path = CaraLibro;
+			sourceTree = "<group>";
+		};
+		AAF712D12884945200C0DBB8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAF712DA2884B4BC00C0DBB8 /* ViewController.swift */,
+				AA8DDAEF285EEF9A00A7DFEB /* AuthViewController.swift */,
+				AACDE78D2883D6F400EFB581 /* RegisterViewController.swift */,
+				AA5560842866B4E400FB207C /* ResetViewController.swift */,
+				AACDE7882883C09900EFB581 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AAF712D228849A2400C0DBB8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAF712D328849A4400C0DBB8 /* Utilities.swift */,
+				AAF712D72884ABA300C0DBB8 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8DDAF8285EEFA300A7DFEB /* LaunchScreen.storyboard in Resources */,
+				AA7A1FA628899AB700B30B0C /* friends.mp4 in Resources */,
 				AA7E72B6286521B4001E50AF /* GoogleService-Info.plist in Resources */,
 				AA8DDAF5285EEFA300A7DFEB /* Assets.xcassets in Resources */,
 				AA8DDAF3285EEF9A00A7DFEB /* Main.storyboard in Resources */,
@@ -167,12 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF712DB2884B4BC00C0DBB8 /* ViewController.swift in Sources */,
 				AA8DDAF0285EEF9A00A7DFEB /* AuthViewController.swift in Sources */,
 				AA8DDAEC285EEF9A00A7DFEB /* AppDelegate.swift in Sources */,
+				AACDE78E2883D6F400EFB581 /* RegisterViewController.swift in Sources */,
 				AA8DDAEE285EEF9A00A7DFEB /* SceneDelegate.swift in Sources */,
 				AA5560852866B4E400FB207C /* ResetViewController.swift in Sources */,
-				AAD9A6852865613D00BB755B /* HomeViewController.swift in Sources */,
-				882E6C8228807140006272F0 /* Service.swift in Sources */,
+				AACDE7892883C09900EFB581 /* HomeViewController.swift in Sources */,
+				AAF712D428849A4400C0DBB8 /* Utilities.swift in Sources */,
+				AAF712D82884ABA300C0DBB8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

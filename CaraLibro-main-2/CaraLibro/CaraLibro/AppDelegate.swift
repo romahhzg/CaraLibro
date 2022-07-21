@@ -8,7 +8,7 @@
 import UIKit
 import Firebase
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         return true
+    }
+    
+    func applicationWillTerminate(_ application: UIApplication){
+
     }
 
     // MARK: UISceneSession Lifecycle
